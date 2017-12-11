@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class ping : MonoBehaviour {
 
+    [SerializeField]
+    TrailRenderer tRender;
+
 	// Use this for initialization
 	void Start () {
 		
