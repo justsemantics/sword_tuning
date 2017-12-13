@@ -46,10 +46,10 @@ public class UIController : MonoBehaviour {
     {
         if(selector.firstSelection != firstSelectionCircle.Selection)
         {
-                firstSelectionCircle.hide();
-                Destroy(firstSelectionCircle.gameObject, 1f);
-                firstSelectionCircle = createSelectionCircle();
-                firstSelectionCircle.Selection = selector.firstSelection;
+            firstSelectionCircle.hide();
+            Destroy(firstSelectionCircle.gameObject, 1f);
+            firstSelectionCircle = createSelectionCircle();
+            firstSelectionCircle.Selection = selector.firstSelection;
         }
 
         if(selector.secondSelection != secondSelectionCircle.Selection)
